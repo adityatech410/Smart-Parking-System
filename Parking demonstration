@@ -1,0 +1,85 @@
+import random
+
+rn1 = random.randint(0,1)
+if rn1 == 0:
+    uu1 = 'val0'
+    s1 = '|_*_| '
+elif rn1 == 1:
+    uu1 = 'val1'
+    s1 = '| ^ | '
+if uu1 == 'val0':
+    print(f"ENGAGE in LOT 1 ")
+elif uu1 == 'val1':
+    print(f"AVAILABLE in lot 1  ")
+
+  
+rn2 = random.randint(0,1)
+if rn2 == 0:
+    uu2 = 'val0'
+    s2 = '|_*_| '
+elif rn2 == 1:
+    uu2 = 'val1'
+    s2 = '| ^ | '
+if uu2 == 'val0':
+    print(f"ENGAGE in LOT 2 ")
+elif uu2 == 'val1':
+    print(f"AVAILABLE in lot 2 ")
+  
+rn3 = random.randint(0,1)
+if rn3 == 0:
+    uu3 = 'val0'
+    s3 = '|_*_| '
+elif rn3 == 1:
+    uu3 = 'val1'
+    s3 = '| ^ | '
+if uu3 == 'val0':
+    print(f"ENGAGE in LOT 3 ")
+elif uu3 == 'val1':
+    print(f"AVAILABLE in lot 3 ")
+
+  
+rn4 = random.randint(0,1)
+if rn4 == 0:
+    uu4 = 'val0'
+    s4 = '|_*_| '
+elif rn4 == 1:
+    uu4 = 'val1'
+    s4 = '| ^ | '
+if uu4 == 'val0':
+    print(f"ENGAGE in LOT 4 ")
+elif uu4 == 'val1':
+    print(f"AVAILABLE in lot 4 ")
+
+rn5 = random.randint(0,1)
+if rn5 == 0:
+    uu5 = 'val0'
+    s5 = '|_*_| '
+elif rn5 == 1:
+    uu5 = 'val1'
+    s5 = '| ^ | '
+if uu5 == 'val0':
+    print(f"ENGAGE in LOT 5 ")
+elif uu5 == 'val1':
+    print(f"AVAILABLE in lot 5 ")
+
+
+sign1 = '*'
+sign2 = '|' 
+print(f'      p1     p2    p3     p4     p5 ')
+print(f'     ___    ___    ___    ___    ___  \n    {s1} {s2} {s3} {s4} {s5} \n    {s1} {s2} {s3} {s4} {s5} \n----     --     --     --     --      --------\n---- ---- ---- ---- ---- ---- ---- ---- ---- -\n______________________________________________')
+if rn1 == 0:
+    if rn2 == 0:
+        if rn3 == 0:
+            if rn4 == 0:
+                if rn5 == 0:
+                    print("The whole parking is FULL")
+                    print(f'|  |'*5)
+if rn1 == 1:
+    if rn2 == 1:
+        if rn3 == 1:
+            if rn4 == 1:
+                if rn5 == 1:
+                    print("The whole parking is EMPTY")
+                    print(f'| {sign1} |'*5)
+
+
